@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+#formBody{
+    background-color: rgb(178, 255, 255);
+}
+
+form{
+    width: 50%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.btn-primary{
+    width: 100%;
+}
+
+.form-control{
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1px solid !important;
+    color: rgba(0,0,0,.87) !important;
+    border-bottom-color: rgba(0,0,0,.42);
+    border-radius: 4px 4px 0 0 !important;
+    transition: .2s !important;
+}
+
+@media only screen and (max-width:500px){
+    form{
+        width: 80% ;
+    }
+}
+
+        
